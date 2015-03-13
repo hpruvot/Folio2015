@@ -1,0 +1,6 @@
+body {
+	background: black;
+	&.active {
+		background: white;
+	}	
+}
