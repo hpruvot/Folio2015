@@ -1,6 +1,3 @@
-body {
-	background: black;
-	&.active {
-		background: white;
-	}	
-}
+// Modules and Variables
+@import "partials/mixins";
+@import "partials/base";
