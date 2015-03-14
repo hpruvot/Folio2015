@@ -201,7 +201,7 @@ html, body {
   margin: 0 auto; }
 
 .col-1of12, .col-2of12, .col-3of12, .col-4of12, .col-5of12, .col-6of12, .col-7of12, .col-8of12, .col-9of12, .col-10of12, .col-11of12, .col-12of12 {
-  float: left;
+  /*float: left;*/
   margin-left: 10px;
   margin-right: 10px;
   text-align: center;
@@ -251,10 +251,32 @@ span.esp {
   font-style: italic;
   margin: 0 0.2em; }
 
-#home.section {
-  height: 100%;
-  width: 100%;
+.section {
   text-align: center; }
+  .section .inner-container {
+    height: 100%; }
+  .section .footer {
+    position: relative;
+    height: 20%; }
+    .section .footer .scroll-icon {
+      font-family: "Brandon Regular";
+      font-size: 1em;
+      color: #9B9B9B;
+      letter-spacing: 0.166em;
+      line-height: 1.5em;
+      position: absolute;
+      text-transform: uppercase;
+      bottom: 20px;
+      background: url('../images/icons/scroll-home.svg') no-repeat bottom center;
+      display: block;
+      width: 100%;
+      height: 30px;
+      margin: 20px 0;
+      cursor: pointer; }
+
+#home.section {
+  width: 100%;
+  height: 100%; }
   #home.section .home__header {
     height: 45%; }
     #home.section .home__header .inner {
@@ -297,20 +319,152 @@ span.esp {
       width: 1px;
       height: 60px;
       background: #9B9B9B; }
-  #home.section .home__footer {
-    height: 20%; }
-    #home.section .home__footer .scroll-icon {
-      font-family: "Brandon Regular";
-      font-size: 1em;
-      color: #9B9B9B;
-      letter-spacing: 0.166em;
-      line-height: 1.5em;
-      position: absolute;
+
+#works.section {
+  background: #222222; }
+  #works.section .inner {
+    padding-top: 8em; }
+  #works.section .works__header {
+    margin-bottom: 10em; }
+    #works.section .works__header h2.title {
+      font-family: "Bodoni Bold Italic";
+      font-size: 3em;
+      color: #FCFCFC;
+      line-height: 2.4em; }
+    #works.section .works__header h3.subtitle {
+      font-family: "Bodoni Roman";
+      font-size: 1.8em;
+      color: #D0D0D0;
+      line-height: 1.5em; }
+  #works.section .works__content #profily .pj__visuel {
+    background: url('../images/cases/Profily/profily_cover.jpg') no-repeat center left; }
+  #works.section .works__content #dyskit .pj__visuel {
+    background: url('../images/cases/Dyskit/dyskit_cover.jpg') no-repeat center right; }
+  #works.section .works__content #groww {
+    margin-bottom: -1em; }
+    #works.section .works__content #groww .pj__visuel {
+      background: url('../images/cases/groww/groww_cover.jpg') no-repeat top right; }
+  #works.section .works__content #keynotes .pj__visuel {
+    background: url('../images/cases/keynotes/keynotes_cover.jpg') no-repeat top left; }
+  #works.section .works__content .project {
+    position: relative;
+    height: 322px;
+    margin-bottom: 6em; }
+    #works.section .works__content .project.left .pj__visuel {
+      float: left; }
+    #works.section .works__content .project.left .pj__info {
+      left: 42%;
+      right: auto;
+      text-align: left; }
+    #works.section .works__content .project.left .pj__hr {
+      float: left; }
+    #works.section .works__content .project.right .pj__visuel {
+      float: right; }
+    #works.section .works__content .project.right .pj__info {
+      right: 42%;
+      left: auto;
+      text-align: right; }
+    #works.section .works__content .project.right .pj__hr {
+      float: right; }
+    #works.section .works__content .project .pj__visuel {
+      width: 50%;
+      height: 322px;
+      cursor: pointer;
+      transition: width 0.3s ease-in-out; }
+      #works.section .works__content .project .pj__visuel:hover {
+        width: 100%; }
+  #works.section .pj__info {
+    position: absolute;
+    top: 6em; }
+    #works.section .pj__info h3.pj__title {
+      font-family: "Brandon Bold";
+      font-size: 3em;
+      color: #FBFBFB;
+      margin-bottom: 0.3em; }
+    #works.section .pj__info h4.pj__subtitle {
+      font-family: "Brandon Light Italic";
+      font-size: 2em;
+      color: #FBFBFB;
+      margin-bottom: 0.4em; }
+    #works.section .pj__info .pj__hr {
+      border: 2px solid #FBFBFB;
+      width: 50px; }
+  #works.section .works__footer.footer.content {
+    padding-top: 6em; }
+
+#contact.section .inner {
+  padding-top: 14.5em; }
+#contact.section .contact__header {
+  color: #3D3B3A;
+  text-align: left; }
+  #contact.section .contact__header h3.title {
+    font-family: "Bodoni Roman";
+    font-size: 1.8em;
+    margin-bottom: 1em; }
+  #contact.section .contact__header p.paragraph {
+    font-family: "Bodoni Roman";
+    font-size: 1.4em;
+    line-height: 1.8em;
+    margin-bottom: 1em; }
+  #contact.section .contact__header span {
+    font-family: "Bodoni Roman";
+    color: #74706E;
+    font-size: 1.4em;
+    margin: 1em 0;
+    display: block; }
+  #contact.section .contact__header p.subtitle {
+    font-family: "Bodoni Bold";
+    font-size: 1.4em;
+    margin-bottom: 1em; }
+#contact.section .contact__content {
+  margin-top: 3em; }
+  #contact.section .contact__content .cta {
+    display: inline-block;
+    font-family: "Brandon Regular";
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    border: 1px solid #3D3B3A;
+    width: 13em; }
+    #contact.section .contact__content .cta a {
+      color: #3D3B3A;
+      text-decoration: none;
       text-transform: uppercase;
-      bottom: 20px;
-      background: url('../images/icons/scroll-home.svg') no-repeat bottom center;
+      line-height: 3.2em;
       display: block;
-      width: 100%;
-      height: 30px;
-      margin: 20px 0;
-      cursor: pointer; }
+      transition: all 0.3s ease-in-out; }
+      #contact.section .contact__content .cta a:hover {
+        background: #3D3B3A;
+        color: #FBFBFB; }
+  #contact.section .contact__content .socials {
+    display: inline-block;
+    padding-left: 4em; }
+    #contact.section .contact__content .socials .social {
+      display: inline-block;
+      vertical-align: middle;
+      width: 20px;
+      height: 20px;
+      margin: 0 15px; }
+    #contact.section .contact__content .socials .tw {
+      background: url('../images/icons/twitter.svg') no-repeat center center; }
+    #contact.section .contact__content .socials .lk {
+      background: url('../images/icons/linkedin.svg') no-repeat center center; }
+    #contact.section .contact__content .socials .db {
+      background: url('../images/icons/dribbble.svg') no-repeat center center; }
+#contact.section .contact__footer {
+  margin-top: 15em; }
+  #contact.section .contact__footer .scroll-icon {
+    bottom: 0px;
+    line-height: 10.5em;
+    background: url('../images/icons/scroll-top.svg') no-repeat bottom center; }
+
+footer {
+  padding: 6em 0 2em;
+  text-align: center; }
+  footer .copyright {
+    font-family: "Brandon Regular";
+    font-size: 0.9em;
+    color: #9B9B9B;
+    line-height: 12px;
+    text-transform: uppercase; }
+    footer .copyright span {
+      color: #838383; }
