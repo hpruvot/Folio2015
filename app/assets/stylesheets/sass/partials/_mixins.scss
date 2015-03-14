@@ -8,21 +8,26 @@
 	  @font-face {
 	    font-family: $family;
 	    src: url('#{$folderBodoni}/#{$filename}.eot');
-	    src: url('#{$folderBodoni}/#{$filename}.eot?#iefix') format("embedded-opentype");
-	    src: url('#{$folderBodoni}/#{$filename}.woff') format("woff");
-	    src: url('#{$folderBodoni}/#{$filename}.ttf') format("truetype");
-	    src: url('#{$folderBodoni}/#{$filename}.svg#08bb4ba465a902745fc23c83a5d9fdc2') format("svg");
+	    src: url('#{$folderBodoni}/#{$filename}.eot?#iefix') format("embedded-opentype"),
+	    	url('#{$folderBodoni}/#{$filename}.woff') format("woff"),
+	    	url('#{$folderBodoni}/#{$filename}.ttf') format("truetype"),
+	    	url('#{$folderBodoni}/#{$filename}.svg#08bb4ba465a902745fc23c83a5d9fdc2') format("svg");
+	   	font-weight: normal;
+    	font-style: normal;
 	  }
 	}
+
 
 	@mixin font-face-brandon($family, $filename) {
 	  @font-face {
 	    font-family: $family;
 	    src: url('#{$folderBrandon}/#{$filename}.eot');
-	    src: url('#{$folderBrandon}/#{$filename}.eot?#iefix') format("embedded-opentype");
-	    src: url('#{$folderBrandon}/#{$filename}.woff') format("woff");
-	    src: url('#{$folderBrandon}/#{$filename}.ttf') format("truetype");
-	    src: url('#{$folderBrandon}/#{$filename}.svg#08bb4ba465a902745fc23c83a5d9fdc2') format("svg");
+	    src: url('#{$folderBrandon}/#{$filename}.eot?#iefix') format("embedded-opentype"),
+	    	url('#{$folderBrandon}/#{$filename}.woff') format("woff"),
+	    	url('#{$folderBrandon}/#{$filename}.ttf') format("truetype"),
+	    	url('#{$folderBrandon}/#{$filename}.svg#08bb4ba465a902745fc23c83a5d9fdc2') format("svg");
+	    font-weight: normal;
+    	font-style: normal;
 	  }
 	}
 
@@ -30,9 +35,11 @@
 	  @font-face {
 	    font-family: $family;
 	    src: url('#{$folderPlayfair}/#{$filename}.eot');
-	    src: url('#{$folderPlayfair}/#{$filename}.eot?#iefix') format("embedded-opentype");
-	    src: url('#{$folderPlayfair}/#{$filename}.woff') format("woff");
-	    src: url('#{$folderPlayfair}/#{$filename}.ttf') format("truetype");
-	    src: url('#{$folderPlayfair}/#{$filename}.svg#08bb4ba465a902745fc23c83a5d9fdc2') format("svg");
+	    src: url('#{$folderPlayfair}/#{$filename}.eot?#iefix') format("embedded-opentype"),
+	    	url('#{$folderPlayfair}/#{$filename}.woff') format("woff"),
+	    	url('#{$folderPlayfair}/#{$filename}.ttf') format("truetype"),
+	    	url('#{$folderPlayfair}/#{$filename}.svg#08bb4ba465a902745fc23c83a5d9fdc2') format("svg");
+	    font-weight: normal;
+    	font-style: normal;
 	  }
 	}

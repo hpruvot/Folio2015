@@ -1,3 +1,11 @@
+@import "partials/reset";
+
 // Modules and Variables
 @import "partials/mixins";
 @import "partials/base";
+@import "partials/grid";
+
+@import "partials/elements";
+
+//Pages
+@import "home";

@@ -1,4 +1,4 @@
-// Fonts families
+// FONTS FAMILIES
 
 	//Bodoni
 	$bodoniBlackCond: "Bauer Bodoni CE Black Cond-webfont";
@@ -10,15 +10,14 @@
 	$bodoniItalic: "Bauer Bodoni CE Italic-webfont";
 	$bodoniRoman: "Bauer Bodoni CE Roman-webfont";
 
-	@include font-face-bodoni("Botoni Black Cond", $bodoniBlackCond);
-	@include font-face-bodoni("Botoni Black Italic", $bodoniBlackItalic);
-	@include font-face-bodoni("Botoni Black", $bodoniBlack);
-	@include font-face-bodoni("Botoni Bold Cond", $bodoniBoldCond);
-	@include font-face-bodoni("Botoni Bold Italic", $bodoniBoldItalic);
-	@include font-face-bodoni("Botoni Bold", $bodoniBold);
-	@include font-face-bodoni("Botoni Italic", $bodoniItalic);
-	@include font-face-bodoni("Botoni Roman", $bodoniRoman);
-
+	@include font-face-bodoni("Bodoni Black Cond", $bodoniBlackCond);
+	@include font-face-bodoni("Bodoni Black Italic", $bodoniBlackItalic);
+	@include font-face-bodoni("Bodoni Black", $bodoniBlack);
+	@include font-face-bodoni("Bodoni Bold Cond", $bodoniBoldCond);
+	@include font-face-bodoni("Bodoni Bold Italic", $bodoniBoldItalic);
+	@include font-face-bodoni("Bodoni Bold", $bodoniBold);
+	@include font-face-bodoni("Bodoni Italic", $bodoniItalic);
+	@include font-face-bodoni("Bodoni Roman", $bodoniRoman);
 
 	//Brandon
 	$brandonBold: "Brandon_bld-webfont";
@@ -34,18 +33,18 @@
 	$brandonThin: "Brandon_thin-webfont";
 	$brandonThinItalic: "Brandon_thin_it-webfont";
 
-	@include font-face-bodoni("Brandon Bold", $brandonBold);
-	@include font-face-bodoni("Brandon Bold Italic", $brandonBoldItalic);
-	@include font-face-bodoni("Brandon Black", $brandonBlack);
-	@include font-face-bodoni("Brandon Black Italic", $brandonBlackItalic);
-	@include font-face-bodoni("Brandon Light", $brandonLight);
-	@include font-face-bodoni("Brandon Light Italic", $brandonLightItalic);
-	@include font-face-bodoni("Brandon Medium", $brandonMedium);
-	@include font-face-bodoni("Brandon Medium Italic", $brandonMediumItalic);
-	@include font-face-bodoni("Brandon Regular", $brandonRegular);
-	@include font-face-bodoni("Brandon Regular Italic", $brandonRegularItalic);
-	@include font-face-bodoni("Brandon Thin", $brandonThin);
-	@include font-face-bodoni("Brandon Thin Italic", $brandonThinItalic);
+	@include font-face-brandon("Brandon Bold", $brandonBold);
+	@include font-face-brandon("Brandon Bold Italic", $brandonBoldItalic);
+	@include font-face-brandon("Brandon Black", $brandonBlack);
+	@include font-face-brandon("Brandon Black Italic", $brandonBlackItalic);
+	@include font-face-brandon("Brandon Light", $brandonLight);
+	@include font-face-brandon("Brandon Light Italic", $brandonLightItalic);
+	@include font-face-brandon("Brandon Medium", $brandonMedium);
+	@include font-face-brandon("Brandon Medium Italic", $brandonMediumItalic);
+	@include font-face-brandon("Brandon Regular", $brandonRegular);
+	@include font-face-brandon("Brandon Regular Italic", $brandonRegularItalic);
+	@include font-face-brandon("Brandon Thin", $brandonThin);
+	@include font-face-brandon("Brandon Thin Italic", $brandonThinItalic);
 
 
 	//Playfair
@@ -53,8 +52,29 @@
 	$playfairBold: "PlayfairDisplay-Bold-webfont";
 	$playfairRegular: "PlayfairDisplay-Regular-webfont";
 
-	@include font-face-bodoni("Botoni Black", $playfairBlack);
-	@include font-face-bodoni("Botoni Bold", $playfairBold);
-	@include font-face-bodoni("Botoni Regular", $playfairRegular);
+	@include font-face-playfair("Playfair Black", $playfairBlack);
+	@include font-face-playfair("Playfair Bold", $playfairBold);
+	@include font-face-playfair("Playfair Regular", $playfairRegular);
 
+
+// COLORS
+$a-grey: #9B9B9B;
+$a-grey-light: #D9D9D9;
+$a-grey-lighter: #F5F5F5;
+$a-grey-dark: #4A4A4A;
+
+$a-black: #3D3B3A;
+$a-black-dark: #222222;
+
+$a-white: #FCFCFC;
+
+$a-marron: #615E5D;
+$a-marron-light: #878583;
+$a-marron-lighter: #BEB7B4;
+
+
+// IMAGES
+$icons: '../images/icons';
+$images: '../images';
+$cases: '../images/cases';
 
