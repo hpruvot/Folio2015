@@ -158,9 +158,17 @@
 				width: 50%;
   				height: 322px;
 				cursor: pointer;
-				@include transition(width, 0.3s, ease-in-out);
+				-webkit-filter: grayscale(1);
+				-webkit-filter: grayscale(100%); -moz-filter: grayscale(100%);
+				-ms-filter: grayscale(100%); -o-filter: grayscale(100%);
+				filter: url(#greyscale);
+				filter: gray; filter: grayscale(100%); 
+				@include transition(all, 0.3s, ease-in-out);
 				&:hover {
-					width: 100%;
+					-webkit-filter: grayscale(0);
+					-webkit-filter: grayscale(0); -moz-filter: grayscale(0);
+					-ms-filter: grayscale(0); -o-filter: grayscale(0);
+					filter: none; filter: grayscale(0);
 				}
 			}
 		}
@@ -287,4 +295,7 @@ footer {
 			color: #838383;
 		}
 	}
+}
+svg {
+	display: none;
 }
