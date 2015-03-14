@@ -35,6 +35,9 @@ table {
 html, body {
   height: 100%; }
 
+* {
+  -webkit-font-smoothing: antialiased !important; }
+
 @font-face {
   font-family: "Bodoni Black Cond";
   src: url('../fonts/Bauer Bodoni/Bauer Bodoni CE Black Cond-webfont.eot');
@@ -488,3 +491,211 @@ footer {
 
 svg {
   display: none; }
+
+#case-dyskit {
+  background: url('../images/cases/Dyskit/bg_case.jpg') no-repeat center center;
+  background-size: cover; }
+
+.wk__intro {
+  height: 100%;
+  width: 100%;
+  text-align: center; }
+  .wk__intro .project {
+    height: 84%; }
+    .wk__intro .project .wk__title {
+      padding-top: 33em;
+      padding-bottom: 13em;
+      position: relative; }
+      .wk__intro .project .wk__title .name {
+        font-family: "Brandon Bold";
+        font-size: 9em;
+        color: #FCFCFC;
+        text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+        text-transform: uppercase; }
+      .wk__intro .project .wk__title .type {
+        font-family: "Brandon Light";
+        font-size: 3em;
+        color: #FCFCFC; }
+    .wk__intro .project .wk__infos {
+      text-align: left; }
+      .wk__intro .project .wk__infos .inner {
+        display: inline-block;
+        width: 22%;
+        padding-left: 10em; }
+      .wk__intro .project .wk__infos .title {
+        font-family: "Brandon Bold";
+        font-size: 1.6em;
+        color: #FCFCFC;
+        text-transform: uppercase;
+        margin-bottom: 0.7em; }
+      .wk__intro .project .wk__infos .subtitle {
+        font-family: "Bodoni Italic";
+        font-size: 1.6em;
+        color: #E6E6E6; }
+  .wk__intro .team {
+    background: white;
+    height: 16%; }
+    .wk__intro .team h3 {
+      font-family: "Brandon Bold";
+      font-size: 1.6em;
+      color: #615E5D;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      padding: 1em 0; }
+    .wk__intro .team p {
+      font-family: "Bodoni Roman";
+      font-size: 1.5em;
+      color: #8F8F8F;
+      line-height: 2em; }
+    .wk__intro .team .bold {
+      font-family: "Bodoni Bold";
+      text-transform: uppercase; }
+    .wk__intro .team .italic {
+      font-family: "Bodoni Italic"; }
+
+.line-reveal {
+  width: 351px;
+  height: 135px;
+  overflow: hidden;
+  position: absolute;
+  left: 34%;
+  top: 53%;
+  -webkit-transform-origin: 0 0;
+          transform-origin: 0 0; }
+  .line-reveal.show .overlay-top {
+    -webkit-animation: wipe 0.8s linear;
+            animation: wipe 0.8s linear;
+    -webkit-animation-delay: 0.8s;
+            animation-delay: 0.8s;
+    /* animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); // cubic
+      //animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000); // expo*/ }
+  .line-reveal.show .overlay-left {
+    -webkit-animation: wipeY 0.5s linear;
+            animation: wipeY 0.5s linear;
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+    /*animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); // cubic
+      //animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000); // expo*/ }
+  .line-reveal.show .overlay-right {
+    -webkit-animation: wipeY 0.5s linear;
+            animation: wipeY 0.5s linear;
+    -webkit-animation-delay: 1.6s;
+            animation-delay: 1.6s;
+    /*animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); // cubic
+      //animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000); // expo*/ }
+  .line-reveal.show .overlay-bottom-left {
+    -webkit-animation: wipe 0.3s linear;
+            animation: wipe 0.3s linear;
+    /*animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); // cubic
+      //animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000); // expo*/ }
+  .line-reveal.show .overlay-bottom-right {
+    -webkit-animation: wipe 0.3s linear;
+            animation: wipe 0.3s linear;
+    -webkit-animation-delay: 2.1s;
+            animation-delay: 2.1s;
+    /*animation-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1.000); // cubic
+      //animation-timing-function: cubic-bezier(1.000, 0.000, 0.000, 1.000); // expo*/ }
+  .line-reveal .overlay-bottom-left {
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 65px;
+    -webkit-transform-origin: 100% 0;
+            transform-origin: 100% 0;
+    background: white;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0); }
+    .line-reveal .overlay-bottom-left.active {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1); }
+  .line-reveal .overlay-bottom-right {
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    right: 0;
+    width: 65px;
+    -webkit-transform-origin: 100% 0;
+            transform-origin: 100% 0;
+    background: white;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0); }
+    .line-reveal .overlay-bottom-right.active {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1); }
+  .line-reveal .overlay-left {
+    height: 135px;
+    position: absolute;
+    width: 3px;
+    -webkit-transform-origin: 0 100%;
+            transform-origin: 0 100%;
+    background: white;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0); }
+    .line-reveal .overlay-left.active {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1); }
+  .line-reveal .overlay-right {
+    height: 135px;
+    position: absolute;
+    right: 0;
+    width: 3px;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    background: white;
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0); }
+    .line-reveal .overlay-right.active {
+      -webkit-transform: scaleY(1);
+              transform: scaleY(1); }
+  .line-reveal .overlay-top {
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    -webkit-transform-origin: 0 0;
+            transform-origin: 0 0;
+    background: white;
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0); }
+    .line-reveal .overlay-top.active {
+      -webkit-transform: scaleX(1);
+              transform: scaleX(1); }
+  .line-reveal .line {
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden; }
+
+@-webkit-keyframes wipe {
+  from {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0); }
+
+  to {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1); } }
+
+@keyframes wipe {
+  from {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0); }
+
+  to {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1); } }
+
+@-webkit-keyframes wipeY {
+  from {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0); }
+
+  to {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); } }
+
+@keyframes wipeY {
+  from {
+    -webkit-transform: scaleY(0);
+            transform: scaleY(0); }
+
+  to {
+    -webkit-transform: scaleY(1);
+            transform: scaleY(1); } }
