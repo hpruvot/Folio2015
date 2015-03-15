@@ -9,6 +9,7 @@
 	$bodoniBold: "Bauer Bodoni CE Bold-webfont";
 	$bodoniItalic: "Bauer Bodoni CE Italic-webfont";
 	$bodoniRoman: "Bauer Bodoni CE Roman-webfont";
+	$bodoniRomanOld: "Bauer Bodoni Roman Oldstyle Figures-webfont";
 
 	@include font-face-bodoni("Bodoni Black Cond", $bodoniBlackCond);
 	@include font-face-bodoni("Bodoni Black Italic", $bodoniBlackItalic);
@@ -18,6 +19,7 @@
 	@include font-face-bodoni("Bodoni Bold", $bodoniBold);
 	@include font-face-bodoni("Bodoni Italic", $bodoniItalic);
 	@include font-face-bodoni("Bodoni Roman", $bodoniRoman);
+	@include font-face-bodoni("Bodoni Roman Old", $bodoniRomanOld);
 
 	//Brandon
 	$brandonBold: "Brandon_bld-webfont";

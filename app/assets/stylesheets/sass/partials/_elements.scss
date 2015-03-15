@@ -5,4 +5,30 @@ span.esp {
 	letter-spacing: 0.185em;
 	font-style: italic;
 	margin: 0 0.2em;
+	&.bold {
+		font-family: "Playfair Bold";
+		font-style: italic;
+	}
 }
+
+.cta {
+	display: inline-block;
+	font-family: "Brandon Regular";
+	font-size: 1.2em;
+	letter-spacing: 2px;
+	border: 1px solid #3D3B3A;
+	width: 13em;
+	a {
+		color: #3D3B3A;
+		text-decoration: none;
+		text-transform: uppercase;
+		line-height: 3.2em;
+		display: block;
+		@include transition(all, 0.3s, ease-in-out);
+		&:hover {
+			background: #3D3B3A;
+			color: #FBFBFB;
+		}
+	}
+}
+

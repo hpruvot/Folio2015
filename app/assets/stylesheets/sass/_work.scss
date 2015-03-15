@@ -201,3 +201,311 @@
 		transform: scaleY(1);
 	}
 }
+
+/* WORK SECTIONS */
+.wk__brief {
+	img.devices {
+		margin: 3.5em auto;
+  		position: relative;
+  		display: block;
+	}
+}
+
+.wk__illustration {
+  padding-top: 7em !important;
+  height: 550px;
+  margin-bottom: 4em;
+  .visual {
+  	height: 100%;
+  	.inner {
+  		height: 100%;
+  	}
+  	img {
+  		margin-top: -3em;
+  		margin-left: 2em;
+	}
+  }
+}
+.wk__votingprocess.wk__section {
+  padding-top: 14em;
+  .visual {
+  	margin-top: 3em;
+  	img {
+  		padding-top: 3em;
+	}
+	.exp {
+	  position: absolute;
+	  top: 7em;
+	  right: 40em;
+	}
+  }
+}
+
+.wk__section.wk__results{
+	&.dyskit {
+		height: 754px;
+		background: linear-gradient(-180deg, #49403B 0%, #2E2722 100%);
+	}
+	.title h3 {
+		color: #F5F5F5;
+	}
+	.slider {
+  		margin-top: 7em;
+  		.browser {
+  			margin-top: 14em;
+  			position: relative;
+  			.bgScroll {
+  				position: absolute;
+  				background-size: 100%;
+  				border-bottom: 1px solid black;
+  				border-bottom-left-radius: 7px;
+  				border-bottom-right-radius: 7px;
+			  	width: 1060px;
+			  	height: 579px;
+			  	top: 6em;
+			  	left: 0.9em;
+			  	overflow: auto;
+			  	img {
+			  		width: 1060px;
+			  	}
+  			}
+		}
+  		.iphone {
+  			margin-top: 14em;
+  			overflow: hidden;
+  			position: relative;
+  			width: 217px;
+  			.bgScroll {
+  				position: absolute;
+  				background-size: 100%;
+  				height: 303px;
+			  	width: 169px;
+			  	top: 6em;
+			  	left: 1.9em;
+			  	overflow: hidden;
+			  	img {
+			  		width: 169px;
+			  	}
+  			}
+		}
+	}
+}
+
+.wk__section.wk__contact {
+  margin-top: 19em;
+  text-align: center;
+  .title {
+  	h3 {
+		font-family: "Bodoni Italic";
+		font-size: 3em;
+		color: #666666;
+		line-height: 49px;
+  	}
+  	h4 {
+		font-family: "Bodoni Italic";
+		font-size: 2em;
+		color: #9E9E9E;
+		line-height: 49px;
+		margin-bottom: 3em;
+  	}
+  }
+  .paragraph {
+  	p {
+		font-family: "Bodoni Italic";
+		font-size: 1.3em;
+		color: #666666;
+		line-height: 49px;
+  	}
+  }
+}
+
+#next-project {
+	height: 400px;
+	margin-top: 10em;
+	text-align: center;
+	.title {
+		padding: 13.5em 0 14.6em;
+		p {
+			font-family: "Brandon Regular";
+			font-size: 1.2em;
+			color: #FFFFFF;
+			letter-spacing: 2px;
+			line-height: 28px;
+			margin-bottom: 1.3em;
+			text-transform: uppercase;
+		}
+		.logo {
+			margin: 0 auto;
+		}
+		span {
+			opacity: 0.69;
+			font-family: "Brandon Light";
+			font-size: 2em;
+			color: #FFFFFF;
+			line-height: 29px;
+		}
+	}
+	&.groww {
+		background: linear-gradient(-180deg, #89C742 0%, #429321 100%);
+		.logo {
+			background: url('#{$cases}/Dyskit/logoGroww.png') no-repeat center center;
+			width: 186px;
+			height: 53px;
+		}
+	}
+}
+
+.visual{
+	.inner {
+		background: #F1F1F1;
+		margin-left: -2em;
+		text-align: center;
+		position: relative;
+		.exp {
+			position: absolute;
+  			p {
+				font-family: "Bodoni Roman";
+				font-size: 1.8em;
+				color: #4A4A4A;
+				line-height: 1.4em;
+  			}
+		}
+	}
+}
+
+.screens {
+	margin-top: 7em;
+	.screen {
+		display: inline-block;
+		margin-bottom: 5em;
+		&:nth-of-type(even) {
+			padding-left: 4em;
+		}
+		.inner {
+			position: relative;
+			margin-top: 1em;
+		}
+		/* LOADER VOTES */
+		/* END LOADER VOTES */
+	} 
+}
+.wk__section {
+	padding-top: 9.5em;
+	padding-left: 2em;
+	.title {
+		margin-bottom: 0.9em;
+		span {
+			font-size: 4.5em;
+			font-family: "Bodoni Bold";
+			color: #BEB7B4;
+		}
+		h3 {
+			font-size: 4.5em;
+			font-family: "Bodoni Black";
+			color: $a-black;
+			display: inline-block;
+		}
+	}
+	p.pg {
+		font-family: "Bodoni Roman";
+		color: #AAA7A6;
+		font-size: 1.8em;
+		line-height: 1.9em;
+		margin-bottom: 0.2em;
+	}
+	p.extra {
+		font-family: "Brandon Regular";
+		color: #3D3B3A;
+		font-size: 1.2em;
+		text-transform: uppercase;
+		text-align: center;
+  		margin-top: 2em;
+  		letter-spacing: 0.2em;
+	}
+	p.sub {
+		font-family: "Bodoni Bold Italic";
+		color: #878583;
+		font-size: 2.4em;
+		margin: 2em 0;
+		padding-left: 1.2em;
+	}
+}
+
+/* CASE DYSKIT */
+ul.palette {
+	margin-top: 3em;
+	li {
+		display: inline-block;
+		figure {
+			margin: 0;
+			position: relative;
+			cursor: pointer;
+			img {
+				max-width: 100%;
+				display: block;
+				position: relative;
+			}
+		}
+		figcaption {
+		  position: absolute;
+		  top: 0;
+		  left: 0;
+		  height: 100%;
+		  line-height: 16em;
+		  width: 100%;
+		  opacity: 0;
+		  text-align: center;
+		  -webkit-backface-visibility: hidden;
+		  -moz-backface-visibility: hidden;
+		  backface-visibility: hidden;
+		  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+		  -moz-transition: -moz-transform 0.3s, opacity 0.3s;
+		  transition: transform 0.3s, opacity 0.3s;
+		  span {
+		  	font-family: "Brandon Regular";
+		  	font-size: 2em;
+			color: #FFFFFF;
+			text-shadow: 0px 1px 2px rgba(0,0,0,0.50);
+		  }
+		}
+	}
+}
+.no-touch figure:hover figcaption {
+	opacity: 1;
+}
+
+div.mockup {
+	margin-left: -16em;
+}
+.eye-grid {
+	font-family: "Brandon Regular";
+	font-size: 1em;
+	color: #3D3B3A;
+	letter-spacing: 1.66px;
+	text-align: left;
+	text-transform: uppercase;
+	line-height: 4em;
+	padding-left: 3em;
+	cursor: pointer;
+	display: block !important;
+	background: url('#{$cases}/Dyskit/eye_closed.svg') no-repeat center left;
+	&.hidden {
+		background: url('#{$cases}/Dyskit/eye_opened.svg') no-repeat center left;
+	}
+}
+figure.mockup-dyskit {
+	position: relative;
+	figcaption {
+		position: absolute;
+		top: 5.5em;
+		img {
+			position: relative;
+			margin-left: 1em;
+			opacity: 1;
+			@include transition(opacity, 0.3s, ease-in-out);
+			&.hidden {
+				opacity: 0;
+			}
+		}
+	}
+}
