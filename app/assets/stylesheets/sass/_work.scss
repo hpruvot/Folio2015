@@ -229,18 +229,15 @@
   padding-top: 7em !important;
   height: 550px;
   margin-bottom: 4em;
-  .visual {
-  	height: 100%;
-  	.inner {
-  		height: 100%;
-  		overflow: hidden;
-  	}
-  	img {
-  		margin-top: -3em;
-	}
-  }
   &.groww .visual .inner {
 	background: #45BD75;
+  }
+  &.mockups .visual{
+  	height: 550px;
+  	background: #F1F1F1;
+  	img {
+  		margin-top: -3em;
+  	}
   }
 }
 .wk__identity {
@@ -254,7 +251,9 @@
 .wk__votingprocess.wk__section {
   padding-top: 14em;
   .visual {
+  	height: 569px;
   	margin-top: 3em;
+  	background: #F1F1F1;
   	img {
   		padding-top: 3em;
 	}
@@ -417,8 +416,6 @@
 
 .visual{
 	.inner {
-		background: #F1F1F1;
-		margin-left: -2em;
 		text-align: center;
 		position: relative;
 		.exp {
@@ -452,8 +449,12 @@
 		/* END LOADER VOTES */
 	} 
 }
+section {
+	@include transition(all, 0.2s, ease-in);
+}
 .wk__section {
 	padding-top: 9.5em;
+	position: relative;
 	.title {
 		margin-bottom: 4.9em;
 		> span {
@@ -580,257 +581,7 @@ figure.mockup-dyskit {
 		}
 	}
 }
-/* CASE PROFILY.ME */
-#logo-anim {
-	  position: absolute;
-	  top: 32%;
-	  width: 100%;
-	  height: 100%;
-}
-#disc {
-	position: absolute;
-	margin: auto;
-	left: 0;
-	right: 0;
-	width: 200px;
-	-webkit-transform-origin: 50%;
-	-webkit-animation-iteration-count:infinite;
-    -webkit-animation-timing-function:ease-in-out;
-    -webkit-animation-name:orbit;
-    -webkit-animation-duration:15s;
-    -moz-animation-iteration-count:infinite;
-    -moz-animation-timing-function:ease-in-out;
-    -moz-animation-name:orbit;
-    -moz-animation-duration:15s;  
-}	
 
-@-webkit-keyframes orbit { 
-
-0% { -webkit-transform:rotate(0deg) } 
-
-3% { -webkit-transform:rotate(0deg) } 
-
-92% {-webkit-transform:rotate(1440deg)}
-
-100% {-webkit-transform:rotate(1440deg)}
-
-}
-
-@-moz-keyframes orbit { 
-
-0% 		{ -moz-transform:rotate(0deg) } 
-
-3% 		{ -moz-transform:rotate(0deg) } 
-
-92% 	{-moz-transform:rotate(1440deg)}
-
-100% 	{-moz-transform:rotate(1440deg)}
-
-}
-
-
-#bar {
-	position: absolute;
-	margin: auto;
-	left: 0;
-	right: 0;
-	width: 60px;
-	margin-left: 53%;
-	-webkit-transform-origin: top right;
-	-webkit-animation-name: rotation;
-	  -webkit-animation-duration: 15s;
-	  -webkit-animation-iteration-count: infinite;
-	  -webkit-animation-timing-function: ease-in-out;
-	  -webkit-animation-fill-mode: none;
-	
-	
-	 -moz-transform-origin: top right;
-	  -moz-animation-name: rotation;
-	  -moz-animation-duration: 15s;
-	  -moz-animation-iteration-count: infinite;
-	  -moz-animation-timing-function: ease-in-out;
-	  -moz-animation-fill-mode: none;
-	
-
-  animation-name: rotation;
-  animation-duration: 15s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-fill-mode: none;
-
-}
-
-@-webkit-keyframes rotation {
-
-  0% {
- -webkit-transform:rotate(-10deg)
-  }
-
-  5% {
- -webkit-transform:rotate(5deg)
-}
-  90% {
- -webkit-transform:rotate(20deg)
-  }
-
-  97% {
- -webkit-transform:rotate(-12deg)
-  }
-
-  100% {
- -webkit-transform:rotate(-10deg)
-  }
-}
-
-@-moz-keyframes rotation {
-
-  0% {
- -moz-transform:rotate(-10deg)
-  }
-
-  15% {
- -moz-transform:rotate(5deg)
-}
-  70% {
- -moz-transform:rotate(20deg)
-  }
-
-  97% {
- -moz-transform:rotate(-12deg)
-  }
-
-  100% {
- -moz-transform:rotate(-10deg)
-  }
-}
-
-.wk__uidetails {
-	background: #F1F1F1;
-	padding-bottom: 5em;
-	p.pg {
-		color: #878583;
-	}
-	.screens {
-  		margin-top: 12em;
-  		.screen {
-			display: table-cell;
-			.inner {
-				margin-top: 2em;
-				margin-bottom: 2.5em;
-				.col-2of12 {
-				  display: inline-block;
-				  img {
-				  	float: right;
-				  }
-				}
-			}
-			p.pg {
-				text-align: center;
-				color: #3D3B3A;
-				margin-top: 0.6em;
-				font-size: 1.5em;
-				line-height: 1em;
-			}
-  		}
-	}
-}
-.wk__stats.profily {
-	background: #3D3B3A;
-	.title h3 {
-		color: #F5F5F5;
-	}
-	p.extra {
-		color: #F5F5F5;
-	}
-	.screens {
-		.screen {
-
-		}
-	}
-}
-.wk__thinksocial {
-	p.pg {
-		color: #878583;
-	}
-	p.extra {
-  		margin-top: 4em;
-	}
-}
-
-.wk__iconographie {
-	.screen .inner {
-		text-align: center;
-		div {
-			display: inline-block;
-  			margin: 3.5em;
-  		}
-	}
-}
-
-.search__friends {
-	margin-top: 4em;
-	padding-bottom: 8em;
-	.inner {
-		display: table-cell;
-	}
-	ul.friends {
-		width: 263px;
-		li {
-			cursor: pointer;
-			.avatar {
-				display: inline-block;
-				width: 50px;
-				height: 50px;
-				overflow: hidden;
-				border-radius: 50%;
-				img {
-					width: 100%;
-				}
-			}
-			.infos {
-				display: inline-block;
-				position: absolute;
-				margin: 1.4em 0;
-  				padding-left: 2em;
-				.name {
-					span {
-						text-transform: uppercase;
-					}
-				}
-				.playlists {
-
-				}
-			}
-		}
-	}
-	ul.selected {
-		li {
-			p.name {
-				display: inline-block;
-				&:before {
-					content: "";
-					display: inline-block;
-					background: #2ECC71;
-					width: 24px;
-					height: 24px;
-					border-radius: 50%;
-					margin-right: 2.4em;
-				}
-				span {
-					text-transform: uppercase;
-				}
-			}
-			span.close {
-				display: inline-block;
-				cursor: pointer;
-				width: 15px;
-				height: 15px;
-				background: url('#{$cases}/Profily/friends_close.svg') no-repeat center right;
-				margin-left: 4em;
-			}
-		}
-	}
-}
 /* CASE GROWW */
 .wk__uxui {
 	.screens {

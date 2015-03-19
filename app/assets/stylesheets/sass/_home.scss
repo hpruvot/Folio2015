@@ -5,7 +5,7 @@
 	}
 	.footer {
 		position: relative;
-		height: 20%;
+		height: 13%;
 	}
 }
 
@@ -237,17 +237,17 @@
 		}
 	}
 	.contact__footer {
-		margin-top: 15em;
+		margin-top: 13em;
 		.scroll-icon {
 			bottom: 0px;
-		  	line-height: 10.5em;
-		  	background: url('#{$icons}/scroll-top.svg') no-repeat bottom center;
+			padding-top: 20px;
+		  	background: url('#{$icons}/scroll-top.svg') no-repeat top center;
 		}
 	}
 }
 
 footer {
-	padding: 6em 0 2em;
+	padding: 3em 0 2em;
   	text-align: center;
 	.copyright {
 		font-family: "Brandon Regular";

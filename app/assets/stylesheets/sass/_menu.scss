@@ -1,0 +1,208 @@
+.side-menu {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 0;
+	border : 0px solid #333;
+	background-color: rgba(0,0,0,0);
+	z-index: 10000;
+	transition: border 0.3s, background-color 0.3s, height 0s 0.3s;
+	.side-overlay {
+		position: absolute;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.3);
+	}
+	div.hr {
+		top: 42.5em;
+  		width: 50px;
+		height: 4px;
+		background: #fff;
+		display: block;
+		position: fixed;
+		left: 0;
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		backface-visibility: hidden;
+	}
+}
+
+
+.side-menu-trigger {
+	position: fixed;
+	top: 5em;
+	left: 6em;
+	display: block;
+	width: 22px;
+	height: 22px;
+	cursor: pointer;
+	span {
+		position: absolute;
+		top: 50%;
+		left: 0;
+		display: block;
+		width: 100%;
+		height: 1px;
+		margin-top: -2px;
+		background-color: #000;
+		font-size: 0px;
+		user-select: none;
+		transition: background-color 0.3s;
+	}
+}
+
+.side-menu-trigger span:before,
+.side-menu-trigger span:after {
+	position: absolute;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	content: '';
+	margin: 8px 0;
+	transition: transform 0.3s;
+}
+
+.side-menu-trigger span:before {
+	transform: translateY(-250%);
+}
+
+.side-menu-trigger span:after {
+	transform: translateY(250%);
+}
+
+.side-menu-open .side-menu-trigger span:before {
+	transform: translateY(0) rotate(45deg);
+	background: #fff;
+}
+
+.side-menu-open .side-menu-trigger span:after {
+	transform: translateY(0) rotate(-45deg);
+	background: #fff;
+}
+
+.side-menu ul {
+	position: fixed;
+	top: 12em;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	padding-left: 6em;
+	list-style: none;
+	backface-visibility: hidden;
+	&.social-menu {
+		top: 44em;
+	}
+}
+
+.side-menu ul li,
+.side-menu ul li a {
+	display: block;
+	width: 100%;
+	text-align: left;
+}
+.side-menu ul li {
+	padding: 11px 0;
+	opacity: 0;
+	visibility: hidden;
+	transition: transform 0.3s, opacity 0.2s, visibility 0s 0.3s;
+	a {
+		display: block;
+		outline: none;
+		color: transparent;
+		text-decoration: none;
+		font-size: 0px;
+		&:before {
+			color: #04a466;
+			font-size: 48px;
+			transition: color 0.2s;
+		}
+	}
+}
+.social-menu li {
+  padding: 0 !important;
+}
+.side-menu ul.main-menu li a {
+	font-family: "Brandon Medium";
+	font-size: 4em;
+	color: #FBFBFB;
+	letter-spacing: 2.66px;
+	line-height: 57px;
+}
+
+.side-menu ul.social-menu li a {
+	font-family: "Brandon Medium";
+	font-size: 2.5em;
+	color: #949494;
+	letter-spacing: 2px;
+	line-height: 36px;
+	&.resume {
+		font-family: "Brandon Medium";
+		font-size: 2em;
+		color: #696969;
+		letter-spacing: 1.6px;
+		line-height: 29px;
+	}
+}
+
+/* main menu */
+.side-menu ul.main-menu li:first-child { 
+	transform: translate3d(-100%,200%,0);
+}
+
+.side-menu ul.main-menu li:nth-child(2) { 
+	transform: translate3d(-100%,100%,0);
+}
+
+.side-menu ul.main-menu li:nth-child(3) { 
+	transform: translate3d(-100%,0,0);
+}
+
+.side-menu div.hr { 
+	transform: translate3d(-100%,-200%,0);
+}
+
+/* social menu */
+.side-menu ul.social-menu li:first-child { 
+	transform: translate3d(-100%,200%,0);
+}
+
+.side-menu ul.social-menu li:nth-child(2) { 
+	transform: translate3d(-100%,100%,0);
+}
+
+.side-menu ul.social-menu li:nth-child(3) { 
+	transform: translate3d(-100%,0,0);
+}
+.side-menu ul.social-menu li:nth-child(4) { 
+	transform: translate3d(-100%,-100%,0);
+}
+.side-menu ul.social-menu li:nth-child(5) { 
+	transform: translate3d(-100%,-200%,0);
+	margin-top: 2em;
+}
+.side-menu-open {
+	height: 100%;
+	border-width: 0 0 0 350px;
+	background-color: rgba(0,0,0,0.3);
+	transition: border-width 0.3s, background-color 0.3s;
+	.side-overlay {
+		height: 100%;
+	}
+	.side-menu-trigger span {
+		background-color: transparent;
+	}
+	ul, ul li, div.hr {
+		visibility: visible;
+		opacity: 1;
+		transition: transform 0.3s, opacity 0.3s;
+		transform: translate3d(0,0,0) !important;
+	}
+	~ section {
+		margin-left: 350px;
+	}
+	~ body {
+		overflow: hidden;
+	}
+}
