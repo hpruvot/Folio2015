@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="29px" height="22px" viewBox="0 0 29 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Tool 8</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Maquettes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="CASE-GROWW" sketch:type="MSArtboardGroup" transform="translate(-798.000000, -8183.000000)" stroke="#FFFFFF">
+            <g id="05---ICONOGRAPHY-So-+-Friend-list" sketch:type="MSLayerGroup" transform="translate(1.000000, 7096.000000)">
+                <g id="Notif_cards" transform="translate(0.000000, 982.000000)" sketch:type="MSShapeGroup">
+                    <g id="Card_notif_1" transform="translate(568.000000, 88.000000)">
+                        <g id="Picto_notif-5" transform="translate(228.000000, 14.500000)">
+                            <g id="Tool-8" transform="translate(15.750000, 13.750000) scale(-1, 1) translate(-15.750000, -13.750000) translate(5.000000, 6.500000)">
+                                <path d="M8.62821137,5.48648233 C8.62821137,5.48648233 8.95375197,7.20291119 9.08054412,7.99422335 C9.13276274,8.3201207 4.04451986,5.44006602 3.6723853,5.19838233 C2.93344041,4.65806897 3.47272607,3.40897845 2.6737083,2.94624314 C2.16138739,3.59009073 0.386971869,6.07021518 0.386971869,6.07021518 C1.01562793,6.54320782 1.77649511,5.94171663 2.36618569,6.22410495 C2.95587627,6.50649327 8.3288319,10.8324584 8.91398928,11.4154222 C9.49914665,11.9983859 9.8691263,13.6989189 9.8691263,13.6989189 C10.2493259,14.0274756 12.1251705,14.330774 14.9081422,14.330774 C17.6911139,14.330774 19.9471581,14.047883 19.9471581,13.6989193 L21.2765533,5.40125716 L8.62821137,5.48648233 Z" id="Path" stroke-width="0.5" fill="#FFFFFF"></path>
+                                <ellipse id="Oval-17" stroke-width="0.5" fill="#FFFFFF" cx="14.9412936" cy="5.39003022" rx="6.33192134" ry="0.789818351"></ellipse>
+                                <path d="M0.21263628,6.08404202 C0.303294673,6.1474247 0.923279996,5.47499671 1.59741226,4.58213208 C2.27154452,3.68926744 2.74454354,2.91407583 2.65388515,2.85069315 C2.56322676,2.78731046 1.94324143,3.45973845 1.26910917,4.35260308 C0.594976912,5.24546772 0.121977886,6.02065933 0.21263628,6.08404202 L0.21263628,6.08404202 Z" id="Oval-21" stroke-width="0.5" fill="#FFFFFF"></path>
+                                <ellipse id="Oval-34" stroke-width="0.5" fill="#E5E5E5" cx="15.0075965" cy="5.35843749" rx="2.55265939" ry="0.252741872"></ellipse>
+                                <ellipse id="Oval-23" stroke-width="0.820799919" cx="15.5345466" cy="5.20592752" rx="5.42186138" ry="5.15248771"></ellipse>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

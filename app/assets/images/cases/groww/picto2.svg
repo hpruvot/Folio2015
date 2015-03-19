@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="20px" height="22px" viewBox="0 0 20 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 76</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.07 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Maquettes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="CASE-GROWW" sketch:type="MSArtboardGroup" transform="translate(-836.000000, -8184.000000)" filter="url(#filter-1)" fill="#FFFFFF">
+            <g id="05---ICONOGRAPHY-So-+-Friend-list" sketch:type="MSLayerGroup" transform="translate(1.000000, 7096.000000)">
+                <g id="Notif_cards" transform="translate(0.000000, 982.000000)" sketch:type="MSShapeGroup">
+                    <g id="Card_notif_1" transform="translate(568.000000, 88.000000)">
+                        <g id="Picto_notif" transform="translate(263.000000, 14.500000)">
+                            <path d="M13.995349,17.1717 C15.8231355,17.1855886 17.1907027,17.4645456 18.1385595,17.8189001 C17.798724,18.4689933 16.8853256,18.9296626 15.8049307,18.9216448 C14.4292374,18.9114619 13.3085654,18.1464425 13.3027026,17.2126282 C13.3022227,17.2014417 13.3037341,17.1907927 13.3049558,17.1793475 C13.5271087,17.1729696 13.7560474,17.1704336 13.995349,17.1717 L13.995349,17.1717 L13.995349,17.1717 Z M14.0186337,20.3144307 C17.5139505,20.3410253 19.7976113,18.7457536 19.7963616,18.4068145 C19.7920546,17.8226481 17.9859885,16.5264136 13.989968,16.4957724 C9.99400539,16.4652904 8.2062975,17.6667116 8.21195658,18.3187335 C8.21400412,18.7042697 10.5233169,20.2878362 14.0186337,20.3144307 L14.0186337,20.3144307 L14.0186337,20.3144307 Z M8.72194875,14.9537733 C9.10764947,10.3888257 9.50639425,8.56349633 12.4845027,7.54898319 C13.5437797,7.18814402 13.0052151,6.4929409 13.9146804,6.50005417 C14.8257893,6.50674952 14.2966239,7.19419422 15.3624231,7.57162453 C18.3552492,8.63031682 18.7815295,10.4626556 19.2366903,15.0337176 C19.42743,16.9589997 20.9923573,16.487516 21.0082215,18.4158543 C21.0174006,19.822567 17.9405623,21.5328673 14.0273383,21.5027479 C10.1142301,21.472947 7.01086148,19.7158293 7.00009666,18.3096937 C6.98581814,16.3807782 8.55793221,16.8763498 8.72194875,14.9537733 L8.72194875,14.9537733 L8.72194875,14.9537733 Z" id="Fill-76"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

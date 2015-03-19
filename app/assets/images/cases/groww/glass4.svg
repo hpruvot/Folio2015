@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="54px" height="80px" viewBox="0 0 54 80" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.2.2 (9983) - http://www.bohemiancoding.com/sketch -->
+    <title>Glass_water_1/4</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Maquettes" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="CASE-GROWW" sketch:type="MSArtboardGroup" transform="translate(-883.000000, -7413.000000)">
+            <g id="05---ICONOGRAPHY-So-+-Friend-list" sketch:type="MSLayerGroup" transform="translate(1.000000, 7096.000000)">
+                <g id="Glassofwaters" transform="translate(505.000000, 317.000000)">
+                    <g id="Glass_water_1/4" transform="translate(377.000000, 0.000000)">
+                        <path d="M42.2915543,66.8459272 L41.5538543,73.5044174 C41.4623424,74.3304049 40.7244691,75 39.882127,75 L13.7406565,75 C12.9088989,75 12.160079,74.332718 12.0675431,73.5044174 L11.3236722,66.8459272 L42.2915543,66.8459272 Z" id="Rectangle-13" fill="#92C4FF" sketch:type="MSShapeGroup"></path>
+                        <path d="M53.2219467,0.448719651 L46.4836695,76.905911 C46.333069,78.6147292 44.8208263,80 43.0992982,80 L10.9007018,80 C9.1821656,80 7.65382381,78.6192386 7.48606865,76.905911 L0,0.448719651" id="Rectangle-11" stroke="#576356" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" sketch:type="MSShapeGroup"></path>
+                        <path d="M2.97927238,6 L51.1100822,6" id="Path-143" stroke="#576356" stroke-width="2" sketch:type="MSShapeGroup"></path>
+                        <text id="1" sketch:type="MSTextLayer" font-family="VAG Rounded Std" font-size="28" font-weight="260" fill="#C7593F">
+                            <tspan x="22" y="51">1</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
