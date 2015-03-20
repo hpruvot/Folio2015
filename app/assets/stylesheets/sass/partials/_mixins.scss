@@ -3,6 +3,7 @@
 	$folderBodoni: "../fonts/Bauer Bodoni";
 	$folderBrandon: "../fonts/Brandon Grotesque";
 	$folderPlayfair: "../fonts/Playfair";
+  $folderRoboto: "../fonts/Roboto";
 
 	@mixin font-face-bodoni($family, $filename) {
 	  @font-face {
@@ -43,6 +44,19 @@
     	font-style: normal;
 	  }
 	}
+
+  @mixin font-face-roboto($family, $filename) {
+    @font-face {
+      font-family: $family;
+      src: url('#{$folderRoboto}/#{$filename}.eot');
+      src: url('#{$folderRoboto}/#{$filename}.eot?#iefix') format("embedded-opentype"),
+        url('#{$folderRoboto}/#{$filename}.woff') format("woff"),
+        url('#{$folderRoboto}/#{$filename}.ttf') format("truetype"),
+        url('#{$folderRoboto}/#{$filename}.svg#08bb4ba465a902745fc23c83a5d9fdc2') format("svg");
+      font-weight: normal;
+      font-style: normal;
+    }
+  }
 
 //TRANSITIONS
 @mixin transition($transition-property, $transition-time, $method) {

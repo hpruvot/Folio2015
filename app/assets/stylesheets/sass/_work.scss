@@ -237,6 +237,9 @@
   	background: #F1F1F1;
   	img {
   		margin-top: -3em;
+  		&.animation {
+  			animation: imgSlide 2s ease-in-out;
+  		}
   	}
   }
 }
@@ -355,6 +358,10 @@
 	height: 400px;
 	margin-top: 10em;
 	text-align: center;
+	position: relative;
+	a {
+		text-decoration: none;
+	}
 	.title {
 		padding: 9% 0 7%;
 		p {
@@ -918,5 +925,20 @@ figure.mockup-dyskit {
 	.cta {
 		margin: 4em 0;
 		width: 215px;
+	}
+}
+
+
+/* IMG SLIDEDOWN ANIMATION */
+
+@keyframes imgSlide {
+	0% {
+		opacity: 0;
+		transform: translateY(-5%);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0%);
 	}
 }

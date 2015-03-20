@@ -2520,6 +2520,41 @@ $(document).ready(function() {
   createCard(card);
   $('#card_line').removeClass().addClass("pin4");
 
+
+  $("#next-project a").on("click", function() {
+
+      $('#next-project').animate({height:'100%', marginTop:'-50%'},function(){
+        $("body").delay(500).fadeOut(500);
+      });
+
+      var urlPageName = $(this).attr("href");
+
+      $.ajax({
+          type: "GET",
+          url: "./" + urlPageName+".html",
+          processData: false,
+          crossDomain: true,
+          cache: false,
+          success: function (result, responseData) { 
+            
+            setTimeout(function() {
+              $("body").html(result).fadeIn(500);
+            }, 1500);
+            
+           
+          },
+          error: function (responseData, textStatus, errorThrown) { alert('AJAX failed'); },
+      });
+
+      //to change the browser URL to the given link location
+      if(urlPageName!=window.location){
+      window.history.pushState({path:urlPageName},'',urlPageName+'.html');
+      }
+
+      return false;
+
+  }); 
+
   /* TWEEN ANIMATIONS */
   // var colourPalette = $(".palette figure");
   // TweenLite.from(colourPalette, 1.5, {top:"50px"});

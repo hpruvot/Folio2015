@@ -1,3 +1,9 @@
+html {
+	background: #fff;
+}
+body {
+	background: #fff;
+}
 span.esp, span.esp.pf {
 	font-family: PlayfairDisplay-Italic;
 	font-size: 1em;
@@ -53,3 +59,22 @@ span.esp, span.esp.pf {
 		cursor: pointer;
 	}
 }
+
+
+ div.page.hidden { 
+        display: none; 
+    }
+
+    div.page.content-hidden .content { 
+        display: none; 
+    }
+
+    div.fade-up-out {
+        opacity: 0;
+        transform: scale(0.8) translate3d(0, -10%, 0);
+        transition: all 450ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    }
+
+    div.easing-upward {
+        transition: all 450ms cubic-bezier(0.165, 0.840, 0.440, 1.000);
+    }

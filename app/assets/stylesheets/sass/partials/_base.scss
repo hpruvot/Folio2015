@@ -58,6 +58,11 @@
 	@include font-face-playfair("Playfair Bold", $playfairBold);
 	@include font-face-playfair("Playfair Regular", $playfairRegular);
 
+	//Roboto
+	$robotoBold: "roboto-bold-webfont";
+
+	@include font-face-roboto("Roboto Bold", $robotoBold);
+
 
 // COLORS
 $a-grey: #9B9B9B;

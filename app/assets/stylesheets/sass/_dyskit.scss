@@ -1,0 +1,105 @@
+.demo{
+	display:inline-block;
+	margin:1em;
+	position:absolute;
+	top: 4em;
+	left: 10em;
+	width:124px;
+	height:124px;
+	background-color:#3D3B3A;
+	border-radius:50%;
+	box-shadow: inset 0px -1px 2px 0px rgba(0,0,0,0.15);
+}
+.demo:after{
+	width:95px;
+	height:95px;
+	position:absolute;
+	content:"";
+	left:15px;
+	top:15px;
+	background-color:#fff;
+	border-radius:50%;
+	box-shadow: inset 0px -1px 2px 0px rgba(0,0,0,0.15);
+}
+.demo>span{
+	width:50%;
+	height:100%;
+	position:absolute;
+	left:0;
+	overflow:hidden;
+}
+.demo .right{
+	left:50%;
+}
+.demo .circle{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	border-radius:999em;
+}
+.demo .left .circle{
+	left:100%;
+	transform-origin:0 50%;
+	border-top-left-radius:0;
+	border-bottom-left-radius:0;
+}
+.demo .right .circle{
+	background: linear-gradient(-180deg, #EE7648 0%, #EE9E19 100%);
+	left:-100%;
+	transform-origin:100% 50%;
+	border-top-right-radius:0;
+	border-bottom-right-radius:0;
+  	animation:circle-left 2s;
+  	-webkit-animation-fill-mode: forwards;
+  	animation-fill-mode: forwards;
+  	animation-timing-function:linear;
+}
+
+.demo3 .left .circle{
+	background: linear-gradient(-180deg, #EE9E19 0%, #EE7648 100%);
+	animation-name:circle-right;
+	animation:circle-right 0.5s;
+  	-webkit-animation-fill-mode: forwards;
+  	animation-fill-mode: forwards;
+	animation-delay: 2s;
+	animation-timing-function:linear;
+}
+
+.demo .counter {
+  position: absolute;
+  top: 1.25em;
+  left: 1em;
+  z-index: 1;
+  font-size: 3.5em;
+  font-family: "Roboto Bold";
+  color: #EE7648;
+  span {
+	  font-size: 0.5em;
+	  position: absolute;
+	  top: 5px;
+  }
+}
+
+/* keyframes */
+@keyframes circle-left {
+  0%{
+  	transform:rotate(0deg);
+  }
+  100% {
+  	transform:rotate(180deg);
+  }
+}
+@keyframes circle-right {
+  0%{
+  	transform:rotate(0deg);
+  }
+  100%{
+  	transform:rotate(45deg);
+  }
+}
+
+.ecoutes {
+  position: absolute;
+  top: 0;
+}
